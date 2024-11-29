@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Open Sans";
+    color: #393d41;
+    line-height: 1.65em;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5em;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+header {
+    background-color: black;
+    padding: 2.5em;
+}
+
+header img {
+    display: block;
+    width: 10em;
+}
+
+article {
+    padding-bottom: 7em;
+}
+
+#titolo {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -5em;
+    padding: 10em;
+}
+article h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 0.5em;
+}
+
+article>h2:first-of-type {
+    margin-top: 2.5em;
+}
+#titolo p {
+    margin: auto;
+    width: 30em;
+}
+article p {
+    font-size: 1.2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+}
+
+button {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    background-color: #f04c2f;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em 1em 2em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+button:hover {
+    background-color: #ff8873;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+article img {
+    border-radius: 50%;
+    width: 25em;
+    display: inline-block;
+    margin: auto;
+    padding-top: 2em;
+    vertical-align:bottom;
+    margin-top: 4em;
+}
+
+#contenitore {
+    display: inline-block;
+    padding-left: 2em;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+section {
+    background-color: #e22d0e;
+    color: white;
+    padding: 3em;
+    
+}
+
+section h3 {
+    color: white;
+    font-size: 2em;
+    padding: 4em auto;
+}
+
+section>p:first-of-type {
+    font-style: italic;
+}
+
+section p span {
+    display: block;
+    font-style: normal;
+    padding-top: 1em;
+    font-size: 1.4em;
+}
+
+aside div {
+    border: 0.1em solid #dee1e3;
+    margin: 2em;
+    border-radius: 5%;
+    display: inline-block;
+    width: 30em;
+    height: 450px;
+    align-items: center;
+    vertical-align: top;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside div h2 {
+    padding-bottom: 0.5em;
+}
+
+aside div p {
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
+
+footer a,
+footer h3 {
+    color: white
+}
+
+footer h3 {
+    font-size: 2em;
+    padding-top: 1.5em;
+    
+}
+address p {
+    margin-top: 0em;
+    padding-bottom: 3em;
+}
+address div {
+    margin: auto;
+    font-size: 1em;
+    padding: 1em;
+    width: 15em;
+    text-align: left;
+}
+address hr {
+    width: 14%
+}
